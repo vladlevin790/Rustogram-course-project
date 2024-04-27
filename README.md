@@ -13,5 +13,5 @@
 #        <li> <code>php artisan storage:link</code> - Символическая ссылка для хранилища</li>
 #        <li>Распаковать public.zip и перенести папку public с заменой в папку storage Laravel проекта</li>
 #        <li><code>php artisan serve</code> - Запуск сервера</li>
-#        <li>Если вы хотите, чтобы можно было загрузить файл размером больше 2 мб, следует зайти в php.ini и изменить переменную upload_max_filesize и post_max_size</li>
+#        <li>Если вы хотите, чтобы можно было загрузить файл размером больше 2 мб, следует зайти в php.ini и изменить переменную <code>upload_max_filesize</code> и <code>post_max_size</code></li>
 #    </ol>
