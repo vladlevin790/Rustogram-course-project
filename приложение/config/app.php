@@ -212,11 +212,11 @@ return [
     ])->toArray(),
 
 
-    'api_requests_per_minute' => 20000,
+    'api_requests_per_minute' => 100,
 
     'rate_limit' => [
         'enabled' => true,
-        'limit' => 200000,
+        'limit' => 100,
         'reset_period' => 60,
     ],
 

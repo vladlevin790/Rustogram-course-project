@@ -15,7 +15,7 @@ class ThrottleRequests
         $this->limiter = $limiter;
     }
 
-    public function handle($request, Closure $next, $maxRequests = 2000, $decayMinutes = 1)
+    public function handle($request, Closure $next, $maxRequests = 100, $decayMinutes = 1)
     {
         $key = $request->ip();
 
